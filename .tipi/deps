@@ -1,0 +1,12 @@
+{
+    "boostorg/boost": {
+        "@": "boost-1.80.0",
+        "u": true,
+        "packages" : [ "boost_system" ], "targets" : [ "Boost::system" ],
+        "opts": "set(BOOST_INCLUDE_LIBRARIES system filesystem thread chrono locale serialization program_options)\nset(CMAKE_DEBUG_POSTFIX \"\")"
+    },
+    "tipi-deps/middleware_openssl": { 
+        "@": ":d301de0dfbf0612660f4e0af52420d29f25f3aa6", 
+        "u": true 
+    }
+}
